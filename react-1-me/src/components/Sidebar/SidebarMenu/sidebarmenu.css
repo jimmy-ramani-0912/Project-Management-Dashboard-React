@@ -1,0 +1,43 @@
+.sidebarmenu {
+    margin: 2.4rem 0;
+}
+
+.sidebar-options {
+    list-style: none;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #8D8D8C;
+    cursor: pointer;
+    padding: 0.6rem 3.8rem;
+}
+
+.menu-item:hover {
+    background-color: #ffffff;
+    color: #6C6C6D;
+}
+
+.sidebarmenu ul li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.menu-option-title {
+    font-size: 1.4rem !important;
+    font-weight: 500;
+    margin: 0 1.8rem;
+}
+
+.pending-circle {
+    border-radius: 50%;
+    background-color: #FE4F4E;
+}
+
+.pending-number {
+    font-size: 1rem;
+    color: #f3f3f3;
+    line-height: 1;
+    padding: 0.4rem 0.6rem;
+}

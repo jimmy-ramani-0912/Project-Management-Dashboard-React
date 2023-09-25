@@ -1,0 +1,95 @@
+.otherprojecttitles {
+    margin: 2rem 0;
+}
+
+.main-title,
+.profiles {
+    margin: 0 2.2rem;
+}
+
+.profiles {
+    margin-bottom: 1rem;
+}
+
+.main-title-left,
+.main-title,
+.sub-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-title {
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: #6C6C6D;
+    cursor: pointer;
+}
+
+.main-title-left,
+.main-title-right {
+    font-size: 1.6rem;
+}
+
+.title {
+    font-size: 1.4rem !important;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.team__header-top-profile-img {
+    border-radius: 50%;
+    height: 2.2rem;
+    width: 2.2rem;
+    cursor: pointer;
+}
+
+.team__header-top-profile-img:not(:last-child) {
+    margin-right: 1.4rem;
+}
+
+.sub-title-container-title {
+    font-size: 1.4rem;
+    margin: 0 1rem;
+}
+
+.sub-title-container {
+    padding: 1rem 3.6rem;
+    color: #8D8D8C;
+}
+
+.sub-title-container:first-child {
+    background-color: #ffffff;
+}
+
+.sub-title-container:hover {
+    background-color: #ffffff;
+    color: #6C6C6D;
+    cursor: pointer;
+}
+
+.design-box,
+.design-box-yellow,
+.design-box-puple,
+.design-box-blue {
+    height: 1rem;
+    width: 1rem;
+    background-color: #6C6C6D;
+    border-radius: 0.2rem;
+}
+
+.design-box-yellow {
+    background-color: #F3BA1D;
+}
+
+.design-box-puple {
+    background-color: #B57AFE;
+}
+
+.design-box-blue {
+    background-color: #9FB3FD;
+}
+
+.star-icon {
+    color: #F3BA1D;
+    font-size: 1.2rem !important;
+}

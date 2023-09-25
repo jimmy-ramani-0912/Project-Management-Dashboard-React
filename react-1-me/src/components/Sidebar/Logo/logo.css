@@ -1,0 +1,10 @@
+.logo-title {
+    color: #003ECB;
+    text-align: center;
+    font-size: 3.2rem;
+    margin: 2rem 0;
+}
+
+.logo-title span {
+    color: #010000;
+}

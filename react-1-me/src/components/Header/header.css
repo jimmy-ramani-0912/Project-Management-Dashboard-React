@@ -1,0 +1,12 @@
+.header {
+    background-color: #fbfafb;
+    grid-column: 2/-1;
+    grid-row: 1/2;
+}
+
+.header-section {
+    margin: 2.6rem 4rem 1.4rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

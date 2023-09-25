@@ -1,0 +1,17 @@
+.favorites {
+    padding: 1.6rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.star-icon-fav {
+    font-size: 1.8rem;
+    color: #F3BA1D;
+}
+
+.fav-title {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    font-weight: 500;
+    color: #6C6C6D;
+}

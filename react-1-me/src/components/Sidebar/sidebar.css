@@ -1,0 +1,10 @@
+.sidebar {
+    background-color: #F3F3F3;
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    overflow: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}

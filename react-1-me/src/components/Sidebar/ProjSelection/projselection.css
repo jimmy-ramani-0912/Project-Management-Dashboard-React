@@ -1,0 +1,31 @@
+.proj-selec-container {
+    padding: 1rem 1.6rem;
+    display: flex;
+    align-items: center;
+    border: solid 1px #b1b0b166;
+    border-radius: 1.2rem;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.proj-logo {
+    color: #2B9CF4;
+    font-size: 3rem;
+    padding-right: 1rem;
+}
+
+.proj-title-container {
+    display: flex;
+    align-items: center;
+    color: #6C6C6D;
+    font-size: 1.4rem;
+}
+
+.proj-title {
+    margin-right: 0.4rem;
+    font-weight: 500;
+}
+
+.proj-member {
+    color: #B1B0B1;
+}

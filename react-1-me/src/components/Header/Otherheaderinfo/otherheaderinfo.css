@@ -1,0 +1,81 @@
+.otherheaderinfo {
+    display: flex;
+    align-items: center;
+}
+
+.search,
+.notification-icon,
+.setting-icon,
+.profile-img,
+.profile-name {
+    cursor: pointer;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    z-index: 1;
+    position: absolute;
+    margin-left: 1.4rem;
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    color: #B1B0B1;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #B1B0B1;
+    color: #B1B0B1;
+    padding: 1rem 4rem;
+    border-radius: 10rem;
+    transition: all 0.4s;
+    background-color: #fbfafb;
+    font-size: 1.4rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.setting-icon,
+.notification-icon {
+    font-size: 1.5rem;
+    color: #B1B0B1;
+    border: 1px solid #B1B0B1;
+    border-radius: 50%;
+    padding: 0.5rem 0.7rem;
+    line-height: 1;
+    margin-left: 1rem;
+}
+
+.notification-icon {
+    position: relative;
+}
+
+.dot {
+    position: absolute;
+    height: 0.6rem;
+    width: 0.6rem;
+    bottom: 0.2rem;
+    left: 1.1rem;
+    border-radius: 80%;
+    background-color: red;
+}
+
+.profile-img img {
+    margin-left: 1rem;
+    height: 3.4rem;
+    width: 3.4rem;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 1.6rem;
+    color: #6C6C6D;
+    font-weight: 600;
+    margin-left: 1rem;
+}
