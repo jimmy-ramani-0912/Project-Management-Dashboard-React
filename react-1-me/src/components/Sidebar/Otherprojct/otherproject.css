@@ -1,0 +1,8 @@
+.otherproject-container {
+    height: 26rem;
+    overflow: auto;
+}
+
+.otherproject-container::-webkit-scrollbar {
+    display: none;
+}

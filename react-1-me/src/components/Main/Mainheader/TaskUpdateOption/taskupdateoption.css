@@ -1,0 +1,48 @@
+.main-header-option {
+    margin: 1.4rem 5rem;
+    justify-content: space-between;
+}
+
+.main-header-option,
+.taks-update-detail,
+.task-detail-option,
+.list-option {
+    display: flex;
+    align-items: center;
+}
+
+.task-update-title,
+.task-opt-title,
+.option-icon,
+.taks-update-detail {
+    color: #6C6C6D;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 0.8;
+    cursor: pointer;
+}
+
+.option-icon,
+.clock-icon {
+    font-size: 1.6rem;
+    padding-right: 0.8rem;
+}
+
+.list-option:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.list-option:last-child {
+    margin-right: 1.2rem;
+}
+
+.task-opt-title-selected,
+.option-icon-selected {
+    color: #3d3d3d !important;
+    font-weight: 600;
+}
+
+.list-option:not(:nth-child(3)):hover .task-opt-title,
+.list-option:not(:nth-child(3)):hover .option-icon {
+    color: #3d3d3d;
+}

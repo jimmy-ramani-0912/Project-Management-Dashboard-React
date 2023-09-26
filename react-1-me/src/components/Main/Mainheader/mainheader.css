@@ -1,6 +1,6 @@
 .main-header {
     justify-content: space-between;
-    margin: 2rem 5rem;
+    margin: 2rem 5rem 0rem 5rem;
 }
 
 .main-header-left,
@@ -29,8 +29,9 @@
 
 .landing-icon {
     background-color: #5B61D7;
-    font-size: 1.6rem;
-    padding: 0.4rem 0.7rem;
+    font-size: 1.8rem;
+    line-height: 0.8;
+    padding: 0.6rem 0.7rem;
     margin-right: 1.2rem;
     border-radius: 0.2rem;
 
@@ -64,6 +65,7 @@
     width: 3.4rem;
     border: 3px #fff solid;
     margin-left: -1rem;
+    cursor: pointer;
 }
 
 .add-sec {
