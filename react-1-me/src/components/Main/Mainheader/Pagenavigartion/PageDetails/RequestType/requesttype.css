@@ -71,6 +71,10 @@
     border: 2px solid #F3F3F3;
 }
 
+.opac {
+    opacity: 0.4;
+}
+
 .card-sec:hover {
     scale: 1.02;
 }

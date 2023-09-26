@@ -6,6 +6,7 @@ function Requesttype(props) {
   const { reqtitle, data } = props;
 
   let classNames = "box-req ";
+  let cardclass = "card-sec ";
   if (reqtitle === "New request") {
     classNames += "box-req-red";
   } else if (reqtitle === "In progress") {
@@ -14,6 +15,7 @@ function Requesttype(props) {
     classNames += "box-req-yellow";
   } else if (reqtitle === "Done") {
     classNames += "box-req-green";
+    cardclass += "opac";
   }
 
   let classNames2 = "priority-text ";
@@ -49,7 +51,7 @@ function Requesttype(props) {
 
       <div className="cards-sec">
         {data.map((item) => (
-          <div className="card-sec">
+          <div className={cardclass}>
             <div className="priority-option">
               <div className={getClassNamesBack(item.priotitle)}>
                 <p className={getClassNames(item.priotitle)}>
