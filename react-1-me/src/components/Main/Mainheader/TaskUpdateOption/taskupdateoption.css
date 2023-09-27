@@ -3,6 +3,19 @@
     justify-content: space-between;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .main-header-option {
+        margin: 1.4rem 4rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main-header-option {
+        margin: 1.4rem 3rem;
+    }
+}
+
 .main-header-option,
 .taks-update-detail,
 .task-detail-option,
@@ -45,4 +58,16 @@
 .list-option:not(:nth-child(3)):hover .task-opt-title,
 .list-option:not(:nth-child(3)):hover .option-icon {
     color: #3d3d3d;
+}
+
+@media screen and (max-width: 580px) {
+    .main-header-option {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .taks-update-detail,
+    .task-detail-option {
+        margin-right: auto;
+    }
 }

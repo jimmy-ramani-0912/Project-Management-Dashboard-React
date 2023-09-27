@@ -1,7 +1,18 @@
 .pagenavigation {
     margin: 2rem 5rem 0 3rem;
     display: flex;
-    /* border-bottom: 1.8px solid #b1b0b166; */
+}
+
+@media screen and (max-width: 1024px) {
+    .pagenavigation {
+        margin: 2rem 4rem 0 2rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .pagenavigation {
+        margin: 1.6rem 3rem 0 1rem;
+    }
 }
 
 .option-pages {
@@ -17,12 +28,32 @@
 .option-pages:hover,
 .option-page-selected {
     margin-bottom: -0.15rem;
-    color: #3d3d3d;
     border-bottom: 1.8px solid #3d3d3d;
     cursor: pointer;
+}
+
+.option-pages:hover .option-page-title {
+    color: #3d3d3d;
 }
 
 .option-page-title-selected {
     margin-bottom: -0.15rem;
     color: #3d3d3d;
+}
+
+@media screen and (max-width: 768px) {
+    .pagenavigation {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .pagenavigation {
+        justify-content: left;
+        overflow: auto;
+    }
+
+    .pagenavigation::-webkit-scrollbar {
+        display: none;
+    }
 }

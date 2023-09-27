@@ -3,3 +3,11 @@
     color: #6C6C6D;
     font-weight: 500;
 }
+
+/*
+@media screen and (max-width: 900px) {
+    .date-title {
+        grid-column: 2/-1;
+        grid-row: 1/-2;
+    }
+} */

@@ -1,0 +1,36 @@
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-icon {
+    z-index: 1;
+    position: absolute;
+    margin-left: 1.4rem;
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    color: #B1B0B1;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #B1B0B1;
+    color: #B1B0B1;
+    padding: 1rem 4rem;
+    border-radius: 10rem;
+    transition: all 0.4s;
+    background-color: #fbfafb;
+    font-size: 1.4rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media screen and (max-width:768px) {
+    .info-profile {
+        margin-left: auto;
+    }
+}

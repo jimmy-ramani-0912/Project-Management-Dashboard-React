@@ -11,6 +11,10 @@
     margin-bottom: 1rem;
 }
 
+.main-title-right {
+    line-height: 0;
+}
+
 .main-title-left,
 .main-title,
 .sub-title-container {

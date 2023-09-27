@@ -2,5 +2,32 @@
     background-color: #F3F3F3;
     grid-column: 1/2;
     grid-row: 1/-1;
-    overflow: hidden;
+    height: 100vh;
+}
+
+.items-sec {
+    height: 89vh;
+    overflow: auto;
+}
+
+.items-sec::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+        position: absolute;
+        overflow: auto;
+    }
+
+    .cancell-icon {
+        position: absolute;
+        font-size: 3.4rem;
+        color: #3d3d3d;
+        line-height: 0;
+        top: 3rem;
+        left: 2rem;
+    }
+
 }

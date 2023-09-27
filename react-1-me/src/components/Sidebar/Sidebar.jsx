@@ -7,11 +7,25 @@ import Divisionline from "../../comman-components/Divisionline/Divisionline";
 import Otherproject from "./Otherprojct/Otherproject";
 import Favorites from "./Favorites/Favorites";
 
-const Sidebar = () => {
+const Sidebar = (props) => {
+  const { cancellIcon, onCancelClick } = props;
+
+  const handleCancelClick = () => {
+    // Call the onCancelClick function when the "Cancel" icon is clicked
+    if (onCancelClick) {
+      onCancelClick();
+    }
+  };
+
   return (
-    <>
-      <div className="sidebar">
-        <Logo />
+    <div className="sidebar">
+      {cancellIcon && (
+        <div className="cancell-icon" onClick={handleCancelClick}>
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
+      )}
+      <Logo />
+      <div className="items-sec">
         <ProjSelection />
         <Sidebarmenu />
         <Divisionline />
@@ -19,7 +33,7 @@ const Sidebar = () => {
         <Divisionline />
         <Favorites />
       </div>
-    </>
+    </div>
   );
 };
 

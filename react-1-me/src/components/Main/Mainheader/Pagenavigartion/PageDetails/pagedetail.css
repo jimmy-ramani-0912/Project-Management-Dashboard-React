@@ -1,6 +1,20 @@
 .pagedetails {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    overflow: auto;
     gap: 4rem;
     margin: 2rem 4rem 0 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .pagedetails {
+        margin: 2rem 3rem 0 3rem;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .pagedetails {
+        margin: 1.6rem 2rem 0 2rem;
+        gap: 1.6rem;
+    }
 }

@@ -1,9 +1,9 @@
-.otherheaderinfo {
+.otherheaderinfo,
+.info-profile {
     display: flex;
     align-items: center;
 }
 
-.search,
 .notification-icon,
 .setting-icon,
 .profile-img,
@@ -11,35 +11,6 @@
     cursor: pointer;
 }
 
-.search {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.search-icon {
-    z-index: 1;
-    position: absolute;
-    margin-left: 1.4rem;
-    margin-top: 0.5rem;
-    font-size: 1.6rem;
-    color: #B1B0B1;
-}
-
-input {
-    width: 100%;
-    border: 1px solid #B1B0B1;
-    color: #B1B0B1;
-    padding: 1rem 4rem;
-    border-radius: 10rem;
-    transition: all 0.4s;
-    background-color: #fbfafb;
-    font-size: 1.4rem;
-}
-
-input:focus {
-    outline: none;
-}
 
 .setting-icon,
 .notification-icon {
@@ -78,4 +49,24 @@ input:focus {
     color: #6C6C6D;
     font-weight: 600;
     margin-left: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .info-profile {
+        margin-left: auto;
+    }
+
+    .setting-icon,
+    .notification-icon {
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+
+    .profile-img img {
+        margin-left: 2rem;
+    }
+
+    .dot {
+        left: 1.3rem;
+    }
 }

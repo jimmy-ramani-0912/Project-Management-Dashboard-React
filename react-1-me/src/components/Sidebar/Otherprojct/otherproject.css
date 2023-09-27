@@ -1,6 +1,6 @@
 .otherproject-container {
-    height: 26rem;
-    overflow: auto;
+    /* height: 35%;
+    overflow: auto; */
 }
 
 .otherproject-container::-webkit-scrollbar {

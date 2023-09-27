@@ -1,6 +1,5 @@
 import React from "react";
 import "./requesttype.css";
-import Divisionline from "../../../../../../comman-components/Divisionline/Divisionline";
 
 function Requesttype(props) {
   const { reqtitle, data } = props;
@@ -83,7 +82,7 @@ function Requesttype(props) {
             <div className="desc">
               <p className="desc-text">{truncateText(item.desc, 110)}</p>
             </div>
-            <Divisionline />
+            <div class="div-line"></div>
             <div className="subtask-attach">
               <div className="subtask">
                 <div className="subtask-icon">

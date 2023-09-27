@@ -11,7 +11,60 @@ html {
 .container {
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
   display: grid;
-  grid-template-columns: 25rem 1fr;
+  grid-template-columns: 16.3% 83.7%;
   grid-template-rows: 8rem 1fr;
+}
+
+@media screen and (max-width: 1350px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 46%;
+  }
+
+  .container {
+    grid-template-columns: 19.3% 80.7%;
+    grid-template-rows: 8rem 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 43%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 48%;
+  }
+
+  .container {
+    grid-template-columns: 100vw;
+    grid-template-rows: 14rem 1fr;
+  }
+}
+
+@media screen and (max-width: 634px) {
+  html {
+    font-size: 43%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  html {
+    font-size: 45%;
+  }
 }

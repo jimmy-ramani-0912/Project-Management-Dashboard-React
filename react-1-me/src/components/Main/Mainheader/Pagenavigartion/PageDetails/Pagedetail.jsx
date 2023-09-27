@@ -115,7 +115,7 @@ function Pagedetail() {
   const Donereq = [
     {
       priotitle: "High",
-      title: "Purchase.finance service section",
+      title: "Purchase, finance, service section",
       sdate: "20 May, 2023",
       edate: "24 May, 2023",
       img: img1,
@@ -128,7 +128,7 @@ function Pagedetail() {
       title: "Knowledge Center",
       sdate: "21 May, 2023",
       edate: "25 May, 2023",
-      img: img3,
+      img: img6,
       desc: "the main written part of a book, newspaper, etc. not the pictures, notes, index, etcthe main written part of a book, newspaper, etc. not the pictures, notes, index, etcthe main written part of a book, newspaper, etc. not the pictures, notes, index, etc",
       subtask: 1,
       attachment: 4,
@@ -136,11 +136,25 @@ function Pagedetail() {
   ];
 
   return (
-    <div className="pagedetails">
-      <Requesttype reqtitle={"New request"} data={Newreq} />
-      <Requesttype reqtitle={"In progress"} data={Progreq} />
-      <Requesttype reqtitle={"Need Review"} data={Needreq} />
-      <Requesttype reqtitle={"Done"} data={Donereq} />
+    <div
+      className="pagedetails"
+      style={{ "grid-template-columns": "repeat(5, 30rem)" }}
+    >
+      <div className="req-type">
+        <Requesttype reqtitle={"New request"} data={Newreq} />
+      </div>
+      <div className="req-type">
+        <Requesttype reqtitle={"In progress"} data={Progreq} />
+      </div>
+      <div className="req-type">
+        <Requesttype reqtitle={"Need Review"} data={Needreq} />
+      </div>
+      <div className="req-type">
+        <Requesttype reqtitle={"Done"} data={Donereq} />
+      </div>
+      <div className="req-type">
+        <Requesttype reqtitle={"Done"} data={Donereq} />
+      </div>
     </div>
   );
 }

@@ -3,6 +3,18 @@
     margin: 2rem 5rem 0rem 5rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .main-header {
+        margin: 2rem 4rem 0rem 4rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .main-header {
+        margin: 1.6rem 3rem 0rem 3rem;
+    }
+}
+
 .main-header-left,
 .main-header,
 .main-header-right,
@@ -83,4 +95,10 @@
     border: 1px solid #6c6c6d92;
     padding: 0.8rem 1.2rem;
     border-radius: 3rem;
+}
+
+@media screen and (max-width: 550px) {
+    .imgs-sec {
+        display: none;
+    }
 }

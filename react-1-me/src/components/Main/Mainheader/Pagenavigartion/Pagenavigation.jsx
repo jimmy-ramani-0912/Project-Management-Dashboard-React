@@ -35,7 +35,6 @@ function Pagenavigation() {
         </div>
       </div>
       <Divisionline />
-
       <Pagedetail />
     </div>
   );

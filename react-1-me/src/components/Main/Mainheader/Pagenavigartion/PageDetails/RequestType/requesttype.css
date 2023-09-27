@@ -51,11 +51,23 @@
     gap: 0.3rem;
 }
 
+.div-line {
+    height: 1.6px;
+    background-color: #b1b0b166;
+    margin: 0;
+}
+
 .cards-sec {
     display: flex;
     flex-direction: column;
-    height: 44rem;
+    height: 56.5vh;
     overflow: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .cards-sec {
+        height: 60.5vh;
+    }
 }
 
 .cards-sec::-webkit-scrollbar {
@@ -75,9 +87,9 @@
     opacity: 0.4;
 }
 
-.card-sec:hover {
+/* .card-sec:hover {
     scale: 1.02;
-}
+} */
 
 .priority-title {
     padding: 1rem;
