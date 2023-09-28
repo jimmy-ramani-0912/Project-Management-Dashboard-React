@@ -70,4 +70,40 @@
     .task-detail-option {
         margin-right: auto;
     }
+
+    .task-detail-option {
+        margin-top: 1rem;
+        margin-bottom: -0.5rem !important;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .main-header-option {
+        margin: 1.4rem 1.6rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .task-detail-option {
+        flex-wrap: wrap;
+    }
+
+    .list-option {
+        display: flex;
+        align-items: center;
+        margin-right: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .task-detail-option {
+        margin-bottom: -2rem !important;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .main-header-option {
+        margin: 1.4rem 1.2rem;
+    }
 }

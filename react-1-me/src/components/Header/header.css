@@ -79,13 +79,9 @@
     }
 
     .search-section {
-        /* background-color: #F3F3F3; */
-        /* padding: 1rem 0; */
-        /* margin-right: -2rem;
-        padding-right: 2rem; */
         grid-column: 2/-1;
         grid-row: 3/-1;
-        width: 100%;
+        width: 80%;
     }
 
     .divider {
@@ -108,5 +104,23 @@
         width: 40%;
         top: 0;
         z-index: 100;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .sidebar-visible .sidebar {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .search-section {
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .header-section {
+        margin: 1rem 1rem 0.6rem 1rem;
     }
 }

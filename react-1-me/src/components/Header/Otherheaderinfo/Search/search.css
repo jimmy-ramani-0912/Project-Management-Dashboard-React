@@ -34,3 +34,14 @@ input:focus {
         margin-left: auto;
     }
 }
+
+@media screen and (max-width:400px) {
+    input {
+        display: none;
+    }
+
+    .search-icon {
+        right: 0;
+        font-size: 2.4rem;
+    }
+}

@@ -188,3 +188,9 @@
 .blue-back {
     background-color: #EAF1FC;
 }
+
+@media screen and (max-width: 430px) {
+    .req-type {
+        margin-bottom: 1.2rem;
+    }
+}
