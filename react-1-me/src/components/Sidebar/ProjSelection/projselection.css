@@ -6,6 +6,12 @@
     border-radius: 1.2rem;
     margin: 0 2rem;
     cursor: pointer;
+    position: relative;
+}
+
+.drop-item {
+    display: flex;
+    align-items: center;
 }
 
 .proj-logo {
@@ -29,4 +35,40 @@
 
 .proj-member {
     color: #B1B0B1;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 20.8rem;
+    background-color: #FBFAFB;
+    border: 1px solid #b1b0b166;
+    border-radius: 0.6rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    display: none;
+}
+
+.proj-selec-container:hover .dropdown-content,
+.proj-selec-container:focus-within .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 0.7rem 1rem;
+    /* color: #333; */
+    color: #6C6C6D;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
 }
