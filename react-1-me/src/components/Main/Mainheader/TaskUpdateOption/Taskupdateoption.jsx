@@ -19,7 +19,7 @@ function Taskupdateoption() {
         </div>
         <div className="list-option">
           <div className="option-icon">
-            <ion-icon name="filter-outline"></ion-icon>{" "}
+            <ion-icon name="filter-outline"></ion-icon>
           </div>
           <h3 className="task-opt-title">Filter</h3>
         </div>
@@ -33,13 +33,13 @@ function Taskupdateoption() {
         </div>
         <div className="list-option">
           <div className="option-icon">
-            <ion-icon name="earth-outline"></ion-icon>{" "}
+            <ion-icon name="earth-outline"></ion-icon>
           </div>
           <h3 className="task-opt-title">Public link : off</h3>
         </div>
         <div className="list-option">
           <div className="option-icon">
-            <ion-icon name="pencil-outline"></ion-icon>{" "}
+            <ion-icon name="pencil-outline"></ion-icon>
           </div>
           <h3 className="task-opt-title">Customize</h3>
         </div>
