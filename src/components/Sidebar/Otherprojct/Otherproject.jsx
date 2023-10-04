@@ -60,7 +60,7 @@ function Otherproject() {
   ];
 
   return (
-    <div className="otherproject-container">
+    <div className="otherproject-container" style={{ marginBottom: "auto" }}>
       {projects.map((project, index) => (
         <Otherprojecttitle
           key={index}

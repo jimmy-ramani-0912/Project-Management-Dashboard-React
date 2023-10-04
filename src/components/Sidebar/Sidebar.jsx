@@ -30,6 +30,7 @@ const Sidebar = (props) => {
         <Divisionline />
         <Otherproject />
         <Divisionline />
+        <div style={{ margin: "auto" }}></div>
         <Favorites />
       </div>
     </div>
