@@ -1,5 +1,7 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12033273&assignment_repo_type=AssignmentRepo)
-# Reusable React Components
+# Project Management Dashboard Design 
+Welcome to my awesome website! This site showcases my projects, portfolio, and other cool stuff.
+
+Check out the live site: [Dashboard](https://react-1-me.netlify.app/)
 
 ### Project Description
 
@@ -28,4 +30,14 @@ The candidate should demonstrate an understanding of component composition by br
 - CSS/SASS/SCSS 
 - Vite/CRA
 
-  
+## Usage
+
+To view the website locally or make changes, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/jimmyramani0912/Test-5.git`
+2. Navigate to the project directory: `cd Test-5`
+3. Open the `index.html` file in your preferred web browser.
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
