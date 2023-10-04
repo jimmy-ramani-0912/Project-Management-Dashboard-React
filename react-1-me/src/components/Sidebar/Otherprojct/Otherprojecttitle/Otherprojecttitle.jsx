@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./otherprojecttitle.css";
 
 function Otherprojecttitle(props) {
   const { title, profiles, subtitles } = props;
 
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleSections = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <div className="otherprojecttitles">
-      <div className="main-title">
+      <div className="main-title" onClick={toggleSections}>
         <div className="main-title-left">
-          {title === "Mercedes project" ? (
+          {isExpanded ? (
             <ion-icon
               name="chevron-down-outline"
               className="dropdown-icon"
@@ -22,7 +28,7 @@ function Otherprojecttitle(props) {
           <ion-icon name="add-outline" className="add-icon"></ion-icon>
         </div>
       </div>
-      {profiles && (
+      {isExpanded && profiles && (
         <div className="profiles">
           {profiles.map((item, index) => (
             <img
@@ -33,7 +39,7 @@ function Otherprojecttitle(props) {
           ))}
         </div>
       )}
-      {subtitles && (
+      {isExpanded && subtitles && (
         <div className="sub-titles">
           {subtitles.map((item, index) => (
             <div className="sub-title-container" key={index}>
