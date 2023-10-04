@@ -5,6 +5,10 @@
     margin: 2rem 4rem 0 4rem;
 }
 
+.pagedetails::-webkit-scrollbar {
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
     .pagedetails {
         margin: 2rem 3rem 0 3rem;
