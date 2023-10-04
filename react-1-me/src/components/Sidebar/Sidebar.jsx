@@ -11,7 +11,6 @@ const Sidebar = (props) => {
   const { cancellIcon, onCancelClick } = props;
 
   const handleCancelClick = () => {
-    // Call the onCancelClick function when the "Cancel" icon is clicked
     if (onCancelClick) {
       onCancelClick();
     }
