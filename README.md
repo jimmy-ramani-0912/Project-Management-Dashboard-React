@@ -1,7 +1,7 @@
 # Project Management Dashboard Design 
 Welcome to my awesome website! This site showcases my projects, portfolio, and other cool stuff.
 
-Check out the live site: [Dashboard](https://react-1-me.netlify.app/)
+Check out the live site: [Dashboard](https://reactjs-1-me.netlify.app/)
 
 ### Project Description
 
